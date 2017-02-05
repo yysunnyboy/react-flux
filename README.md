@@ -1,3 +1,9 @@
+'感谢阮老师的分享！！！！'
+‘个人感想：react flux 保持数据的单向流动，进行开发时：处理用户页面上的行为发出action,项目中对action进行统一收集，dispatcher将action发送到store，store中
+写有根据不用的action的处理逻辑；使得项目逻辑处理更清晰。’
+‘对于react、flux在大型项目中的整体应用，解决不用组件之间的状态信息的传递后续继续学习！！！！’
+‘Flux 设计中的 Controller-Views 概念就是为了解决这个问题出发的，将所有的 subscribe 都置于 Parent 组件（Controller-Views），由最上层组件控制下层组件的表现’
+
 This demo helps you learn [Flux architecture](https://facebook.github.io/flux/). It is inspired by Andrew Ray's great article [Flux For Stupid People](http://blog.andrewray.me/flux-for-stupid-people/).
 
 ## What is Flux?
